@@ -17,22 +17,23 @@ body{
 
 hr{
     border-color:lightgray;
-    -webkit-transform:translate(0px,-20px);
-    -ms-transform:translate(0px,-20px);
-    transform:translate(0px,-20px);
+    
+    top:-20px;
+   
+    position:relative;
 }
 
 p{
     font-family:Verdana;
     font-size:10px;
     
+   
     /*transform:translate(0,-8px);*/
 }
 
 pre{
     font-family:Verdana;
     font-size:11px;
-    
 }
 .verticalLine{
     border-left: solid gray;
